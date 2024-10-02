@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { socials } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-// import EmailIcon from "./../public/assets/icons/email.svg";
+import EmailIcon from "./../public/assets/icons/email.svg";
 
 function About() {
   return (
@@ -37,7 +37,7 @@ I'm actively learning and enhancing my knowledge and skills in cutting-edge tech
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
-        {/* <div className="w-fit break-words">
+        <div className="w-fit break-words">
           <Link
             href="mailto:@gmail.com"
             target="_blank"
@@ -47,7 +47,7 @@ I'm actively learning and enhancing my knowledge and skills in cutting-edge tech
             <EmailIcon className="w-[30px] h-[30px]" />
             @gmail.com
           </Link>
-        </div> */}
+        </div>
         <div className="flex gap-5 items-center">
           {socials.map((social) => (
             <Link
