@@ -39,13 +39,13 @@ I'm actively learning and enhancing my knowledge and skills in cutting-edge tech
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:@gmail.com"
+            href=""
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            @gmail.com
+            
           </Link>
         </div>
         <div className="flex gap-5 items-center">
